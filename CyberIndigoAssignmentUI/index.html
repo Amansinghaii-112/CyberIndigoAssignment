@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <title>Index</title>
+
+    <!--Bootstrap 4 is designed to be responsive to mobile devices. Mobile-first styles are part of the core framework-->
+    <!--Ref source W3School-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--External CSS-->
+    <link rel="stylesheet" type="text/css" href="CSS/index.css">
+
+    <!--FONT AWESOME 4-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--FONT AWESOME 5-->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+    <!--Bootstrap 4 CDN-->
+    <!--Ref source W3School-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--AngularJs CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+
+    <!--CDN for UI router for angular JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.28/angular-ui-router.min.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.16/angular-resource.min.js"></script>
+
+    <!--Router-->
+    <script src="Scripts/Router/Router.js"></script>
+
+    <!--Controllers-->
+    <script src="Scripts/controllers.js"></script>
+
+    <!--CDN for ng checklist for angular JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/checklist-model/1.0.0/checklist-model.min.js"></script>
+
+</head>
+
+<body ng-app="routerApp" ng-cloak>
+
+    <div class="container">
+
+        <!--Header-->
+        <!--Class container in a part of bootstrap to wrap site contents.-->
+        <!--Ui-view is where we inject our content-->
+
+        <div class="container">
+            <div ui-view></div>
+        </div>
+
+        <br />
+        <br />
+        <br />
+
+        <!--footer-->
+
+        <div class="container-fluid footer">
+            <div class="clearfix">
+
+                <div class="p-2 float-sm-left">
+
+                    <a href="https://www.facebook.com/pages/category/Internet-Company/Cyberindigo-Net-Pvt-Ltd-201015759993421/" target="_blank">
+                        <img src="Images/SocialMediaLogo/facebook.png" height="30" />
+                    </a>
+
+                    <a href="https://www.instagram.com/aman_singhai/" target="_blank">
+                        <img src="Images/SocialMediaLogo/instagram.png" height="30" />
+                    </a>
+
+                    <a href="https://twitter.com/cyberindigo" target="_blank">
+                        <img src="Images/SocialMediaLogo/twitter.png" height="33" />
+                    </a>
+
+                </div>
+
+                <span class="float-sm-right">
+                    <a href="https://www.cyberindigo.net/" target="_blank" />
+                    <img src="Images/cyberindigo-logo.png" height="55" />
+                </span>
+
+                <div class="p-1 float-sm-right" style="padding-top: 2px; padding-bottom: 2px;">
+                    <span style="float:right; color:#00a0b0">2020-2021</span>
+                    <span style="float:right">&copy;Cyberindigo. assignment.</span>
+
+                    <div style="padding-left:110px;"> <a href="https://www.cyberindigo.net/" target="_blank">About us</a></div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

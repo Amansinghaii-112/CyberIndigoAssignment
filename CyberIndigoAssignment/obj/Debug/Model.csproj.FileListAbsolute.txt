@@ -1,0 +1,12 @@
+C:\Users\hp\source\repos\CyberIndigoAssignment\CyberIndigoAssignment\bin\Debug\CyberIndigoAssignment.dll
+C:\Users\hp\source\repos\CyberIndigoAssignment\CyberIndigoAssignment\bin\Debug\CyberIndigoAssignment.pdb
+C:\Users\hp\source\repos\CyberIndigoAssignment\CyberIndigoAssignment\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\hp\source\repos\CyberIndigoAssignment\CyberIndigoAssignment\bin\Debug\Unity.Abstractions.dll
+C:\Users\hp\source\repos\CyberIndigoAssignment\CyberIndigoAssignment\bin\Debug\Unity.Container.dll
+C:\Users\hp\source\repos\CyberIndigoAssignment\CyberIndigoAssignment\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\hp\source\repos\CyberIndigoAssignment\CyberIndigoAssignment\bin\Debug\Unity.Abstractions.pdb
+C:\Users\hp\source\repos\CyberIndigoAssignment\CyberIndigoAssignment\bin\Debug\Unity.Container.pdb
+C:\Users\hp\source\repos\CyberIndigoAssignment\CyberIndigoAssignment\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\CyberIndigoAssignment\CyberIndigoAssignment\obj\Debug\Model.csproj.CopyComplete
+C:\Users\hp\source\repos\CyberIndigoAssignment\CyberIndigoAssignment\obj\Debug\CyberIndigoAssignment.dll
+C:\Users\hp\source\repos\CyberIndigoAssignment\CyberIndigoAssignment\obj\Debug\CyberIndigoAssignment.pdb

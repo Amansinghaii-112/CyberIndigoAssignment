@@ -1,0 +1,156 @@
+﻿
+<div class="container-sm">
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../Images/Backgrounds/banner-916673_1920.jpg" alt="abc" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="../Images/Backgrounds/assignment2.jpg" alt="assignment" width="1100" height="500">
+            </div>
+            <div class="carousel-item">
+                <img src="../Images/Backgrounds/login.png" alt="login " width="1100" height="500">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row">
+
+        <button class="btn-primary"style="margin-left:20px;" ng-click="userPageDrive('login')">Login</button>
+        <button class="btn-primary" style="margin-left:20px;" ng-click="userPageDrive('SignUp')">Signup</button>
+    </div>
+
+    <div class="jumbotron" ng-show="userPageStatus == 'login'" style="background-color:#3D5361;">
+
+        <h2>Login here...</h2>
+
+        <form class="form-horizontal" role="form" ng-submit="check()" name="form">
+
+            <div class="alert alert-success" ng-show="successMsg != ''">
+                <span>{{successMsg}}</span>
+            </div>
+
+            <div class="alert alert-danger" ng-show="ErrorMsg!= ''">
+                <strong>{{ErrorMsg}}</strong>
+            </div>
+
+            <div class="form-group row">
+                <label for="UserMailIDLogin" class="col-sm-5 control-label">User Mail ID:<span style="color: red;">*</span></label>
+                <div class="col-sm-5">
+                    <input type="text" ng-model="UserDTO.UserEmailID" maxlength="25" id="UserMailIDLogin" class="form-control" placeholder="Enter User Mail ID" required />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="PasswordLogin" class="col-sm-5 control-label">User Password:<span style="color: red;">*</span></label>
+                <div class="col-sm-5">
+                    <input type="password" ng-model="UserDTO.UserPassword" maxlength="15" id="PasswordLogin" class="form-control" placeholder="Enter Password" required />
+                </div>
+            </div>
+
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                </label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Login</button>
+
+        </form>
+
+        <br />
+
+        <div ng-if="successMsg == ' || Welcome || Successfully login...' ">
+
+            <button class="" ui-sref="ClientCreation">• Client creation </button>
+
+            <button class="" ui-sref="ClientSearch">• Client search</button>
+
+        </div>
+
+    </div>
+
+    <div class="jumbotron" ng-show="userPageStatus == 'SignUp'" style="background-color:#3D5361;">
+
+        <h2>Sign Up here...</h2>
+
+        <form class="form-horizontal" role="form" ng-submit="add()" name="form">
+
+            <div class="alert alert-success" ng-show="successMsg != ''">
+                <span>{{successMsg}}</span>
+            </div>
+
+            <div class="alert alert-danger" ng-show="ErrorMsg!= ''">
+                <strong>{{ErrorMsg}}</strong>
+            </div>
+
+            <div class="form-group row">
+                <label for="UserMailID" class="col-sm-5 control-label">User Mail ID:<span style="color: red;">*</span></label>
+                <div class="col-sm-5">
+                    <input type="text" ng-model="UserDTO.UserEmailID" maxlength="25" id="UserMailID" class="form-control" placeholder="Enter User Mail ID" required />
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="UserName" class="col-sm-5 control-label">User Name:<span style="color: red;">*</span></label>
+                <div class="col-sm-5">
+                    <input type="text" ng-model="UserDTO.UserName" maxlength="25" id="UserName" class="form-control" placeholder="Enter User Name" />
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <label for="User Password" class="col-sm-5 control-label">User Password:<span style="color: red;">*</span></label>
+                <div class="col-sm-5">
+                    <input type="password" ng-model="UserDTO.UserPassword" maxlength="15" id="Password" class="form-control" placeholder="Enter Password" required />
+                </div>
+            </div>
+
+           
+                <p style="color:red; margin-left:450px;" ng-show="PasswordStatus == 'NotSame'">Password and confirm password should be same</p>
+         
+                <div class="form-group row">
+                    <label for="ConfirmPassword" class="col-sm-5 control-label">User Confirm Password:<span style="color: red;">*</span></label>
+                    <div class="col-sm-5">
+                        <input type="password" ng-model="UserDTO.ConfirmUserPassword" maxlength="15" id="ConfirmPassword" class="form-control" placeholder="Enter Confirm Password" required />
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Sign up</button>
+
+        </form>
+
+        <br />
+
+        <div ng-if="successMsg == ' || Welcome || Successfully login...' ">
+
+            <button class="" ui-sref="Blog">• Blogs </button>
+
+            <button class="" style="margin-left:20px;" ui-sref="MyProfile">• My Profile</button>
+
+        </div>
+
+    </div>
+
+</div>
+

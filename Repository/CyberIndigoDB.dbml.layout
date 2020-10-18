@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CyberIndigoDB">
+  <DataContextMoniker Name="/CyberIndigoDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="72ca98f2-bd82-4306-bba3-650f58eac336" absoluteBounds="0.875, 0.625, 2, 1.9631982421875">
+      <DataClassMoniker Name="/CyberIndigoDBDataContext/BlogRecord" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6022515f-bdcb-4495-90d2-36353d4d14cb" absoluteBounds="0.89, 1.085, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4f26ea49-b539-469c-bf48-c349970f588c" absoluteBounds="3.625, 0.875, 2, 1.1939925130208331">
+      <DataClassMoniker Name="/CyberIndigoDBDataContext/BlogTagRecord" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2997076e-38a7-481d-855b-2f35599b6f5c" absoluteBounds="3.64, 1.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="832b4874-1919-4219-b280-6c775477c718" absoluteBounds="4.25, 2.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CyberIndigoDBDataContext/UserRecord" />
+      <nestedChildShapes>
+        <elementListCompartment Id="26c6f9aa-dd59-4c3a-a9de-23f37643a608" absoluteBounds="4.265, 3.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
